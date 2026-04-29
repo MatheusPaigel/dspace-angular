@@ -2,10 +2,12 @@
 import { HeaderComponent } from './app/header/header.component';
 import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
+import { HomePageComponent } from './app/home-page/home-page.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
 
 export const COMPONENTS = [
   HomeNewsComponent,
+  HomePageComponent,
   HeaderComponent,
   HeaderNavbarWrapperComponent,
   NavbarComponent,

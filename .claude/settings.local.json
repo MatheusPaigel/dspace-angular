@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner.jpg\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner.jpg\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner.webp\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner.webp\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner-half.webp\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner-half.webp\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner-tall.webp\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\banner-tall.webp\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\bannerTablet.png\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\bannerTablet.png\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\bannerCelular.png\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\bannerCelular.png\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\logo-uvv.png\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\logo-uvv.png\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\favicon.ico\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\favicon.ico\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\android-chrome-192x192.png\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\android-chrome-192x192.png\")",
+      "Bash(cp \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\dspace\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\apple-touch-icon.png\" \"C:\\\\Users\\\\matheus.paigel\\\\Documents\\\\GitHub\\\\dspace-angular\\\\src\\\\themes\\\\dspace\\\\assets\\\\images\\\\favicons\\\\apple-touch-icon.png\")",
+      "Bash(xargs grep *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}

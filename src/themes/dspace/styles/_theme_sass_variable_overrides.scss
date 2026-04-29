@@ -44,15 +44,21 @@ $font-family-sans-serif: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI"
 //$teal:    #20c997 !default;
 //$cyan:    #17a2b8 !default;
 
-// Override semantic colors here
-$primary:   #43515f;  // Gray
+// Override semantic colors here — UVV color palette
+$blue:     #2b4e72;
+$green:    #2e3a89;  // UVV navy blue (used as accent)
+$cyan:     lighten(#2e3a89, 10%);
+$yellow:   #ec9433;
+$red:      #cf4444;
+$dark:     #2e3a89;
+
+$primary:   #2e3a89;  // UVV navy blue
 $secondary: #495057;  // As Bootstrap $gray-700
-$success:   #92c642;  // Lime
-$info:      #1e6f90;  // Light blue
+$success:   #2e3a89;  // UVV navy blue
+$info:      lighten(#2e3a89, 10%);
 $warning:   #ec9433;  // Orange
 $danger:    #cf4444;  // Red
 $light:     #f8f9fa;  // As Bootstrap $gray-100
-$dark:      #43515f;  // Dark blue
 
 // Add new semantic colors here (you don't need to add existing semantic colors)
 $theme-custom-semantic-colors: (
@@ -64,7 +70,7 @@ $min-contrast-ratio: 2.06 !default;
 
 $body-color: #343a40;       // As Bootstrap $gray-800
 
-$link-color: #1e6f90;       // Blue green, as DSpace $info
+$link-color: lighten(#2e3a89, 10%);
 $link-decoration: none;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
@@ -77,8 +83,8 @@ $navbar-dark-color: #fff;
 
 /*** CUSTOM DSPACE VARIABLES ***/
 
-$ds-home-news-link-color: #D2FC93;
-$ds-header-navbar-border-bottom-color: #92c642;
+$ds-home-news-link-color: #2e3a89;
+$ds-header-navbar-border-bottom-color: #2e3a89;
 
 $ds-breadcrumb-link-color: #154E66 !default;
 $ds-breadcrumb-link-active-color: #040D11 !default;

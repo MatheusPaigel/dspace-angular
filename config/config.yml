@@ -1,5 +1,17 @@
 rest:
-  ssl: true
-  host: sandbox.dspace.org
-  port: 443
+  ssl: false
+  host: localhost
+  port: 8080
   nameSpace: /server
+
+# Idioma padrão da interface
+fallbackLanguage: pt-BR
+
+# Idiomas ativos
+languages:
+  - code: pt-BR
+    label: Português (Brasil)
+    active: true
+  - code: en
+    label: English
+    active: true
